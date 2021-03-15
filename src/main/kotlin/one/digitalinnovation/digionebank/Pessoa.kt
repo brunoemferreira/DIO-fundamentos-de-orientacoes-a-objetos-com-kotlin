@@ -3,6 +3,7 @@ package one.digitalinnovation.digionebank
 class Pessoa {
     var nome:String = "Bruno"
     var cpf:String = "123.123.456-88"
+    private set
 }
 
 fun main() {
@@ -10,4 +11,5 @@ fun main() {
 
     println(bruno.nome)
     println(bruno.cpf)
+
 }
